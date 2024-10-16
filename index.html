@@ -105,43 +105,15 @@
         <p>PDF consegna C1</p>
         
 
-
-        <!-- Responsive iframe container for the embedded PDF -->
-        <div class="iframe-container">
-            <iframe src="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" id="pdf-iframe"></iframe>
-        </div>
-
         <br>
 
         <!-- Download link as backup -->
-        <a href="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" class="pdf-link" download="FHCI - C1_compressed.pdf">Download PDF</a>
+        <a href="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" class="pdf-link" download="FHCI - C1_compressed.pdf">Scarica la presentazione</a>
     </main>
 
     <footer>
         <p>&copy; 2024 NexusKnights</p>
     </footer>
 
-    <script>
-        // Get references to the spinner and iframe
-        var spinner = document.getElementById('loading-spinner');
-        var iframe = document.getElementById('pdf-iframe');
-
-        // Show spinner when the page loads
-        window.onload = function() {
-            spinner.style.display = 'block';
-        };
-
-        // Hide spinner and show iframe when PDF is fully loaded
-        iframe.onload = function() {
-            spinner.style.display = 'none'; // Hide spinner
-            iframe.style.display = 'block'; // Show iframe
-        };
-
-        // Fallback timeout: hide spinner after 5 seconds in case iframe onload doesn't trigger
-        setTimeout(function() {
-            spinner.style.display = 'none'; // Hide spinner
-            iframe.style.display = 'block'; // Show iframe
-        }, 5000);  // Adjust the timeout duration if necessary
-    </script>
 </body>
 </html>
