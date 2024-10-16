@@ -1,78 +1,304 @@
-<!DOCTYPE html>
-<html>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
 
-<head>
-    <title></title>
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+	}
+	
+	h1 {
+		font-size:32px;
+		font-weight:300;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
+
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		15px 15px 0 0px #fff, /* The fourth layer */
+		15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		20px 20px 0 0px #fff, /* The fifth layer */
+		20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		25px 25px 0 0px #fff, /* The fifth layer */
+		25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
 
 
-
-    <link rel="stylesheet" type="text/css" href="./styles/style.css" media="screen" />
-</head>
-    
-<body>
-
-<div class="title1"> <a href="https://benjamin-bm.github.io/Capstone.project/Capstone.project/"> <img src="./assets/img/logo5 (3).png" alt="" height="80px"> </a> </div>
-
-  <div class="title2">  <p>
-    <b> EXPLORE </b> <br> <br>
-<a style="text-decoration:none" href="https://benjamin-bm.github.io/Capstone.project/Capstone.project/Data1/"> - Teach about data </a> <br> <br>
-<a style="text-decoration:none" href="https://benjamin-bm.github.io/Capstone.project/Capstone.project/Algo1/"> - Teach about algorithms </a> <br> <br>
-<a href="https://benjamin-bm.github.io/Capstone.project/Capstone.project/AI1/"> - Teach about AI </a> <br> <br>
-<a href="https://benjamin-bm.github.io/Capstone.project/Capstone.project/About1/">- About and resources </a> <br> <br>
-</p> </div>
-
-<div class="button1">
-<a href="./assets/pdf/EDUCATIONAL MATERIAL TO TEACH ABOUT AI (1).pdf" download>
-  <img src="./assets/img/Icons/Download-Icon-by-demolabid-1-580x386.jpg" alt="W3Schools" height="100px">
-</a>
-</div>
-
-<div class="RightSiteTitle">
-  PROGETTO HCI <br>
-</div>
-
-<div class="undertitle1"> 
- Prova
-</div>
- 
-  <div class=”svg1”>
-    <svg width="400" height="400" viewBox="0 0 181 191" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="96" cy="4" r="4" fill="black"/>
-      <circle cx="4" cy="94" r="4" fill="black"/>
-      <circle cx="157" cy="187" r="4" fill="black"/>
-      <circle cx="37" cy="27" r="4" fill="black"/>
-      <circle cx="29" cy="135" r="4" fill="black"/>
-      <circle cx="41" cy="107" r="4" fill="black"/>
-      <circle cx="33" cy="75" r="4" fill="black"/>
-      <circle cx="85" cy="86" r="4" fill="black"/>
-      <circle cx="60" cy="55" r="4" fill="black"/>
-      <circle cx="71" cy="115" r="4" fill="black"/>
-      <circle cx="142" cy="94" r="4" fill="black"/>
-      <circle cx="142" cy="143" r="4" fill="black"/>
-      <circle cx="110" cy="107" r="4" fill="black"/>
-      <circle cx="153" cy="63" r="4" fill="black"/>
-      <circle cx="177" cy="75" r="4" fill="black"/>
-      <circle cx="169" cy="168" r="4" fill="black"/>
-      <circle cx="134" cy="172" r="4" fill="black"/>
-      <circle cx="165" cy="127" r="4" fill="black"/>
-      <circle cx="130" cy="47" r="4" fill="black"/>
-      <circle cx="100" cy="59" r="4" fill="black"/>
-      <circle cx="114" cy="135" r="4" fill="black"/>
-      <circle cx="71" cy="149" r="4" fill="black"/>
-      <circle cx="134" cy="26" r="4" fill="black"/>
-      <circle cx="165" cy="34" r="4" fill="black"/>
-      <path class="path" d="M154 187C149.496 187 144.768 182.268 141.75 179.25C140.912 178.412 138.839 176.906 137.722 176.5C134.637 175.378 136.022 173.591 137 171C138.674 166.564 140.541 162.194 142.25 157.75C143.283 155.065 145 150.443 145 147.5C145 145.577 137.196 145.407 135.5 145C131.869 144.129 128.204 143.218 124.778 141.75C121.102 140.175 117.467 138.087 113.778 136.611C111.387 135.655 105.807 137.847 103.389 138.5C100.001 139.414 96.2508 139.92 93 141.25C90.3603 142.33 87.7998 143.003 85.25 144.222C82.7419 145.422 80.0016 146.643 77.3889 147.611C75.8309 148.188 74.0081 148.476 72.5 149.111C69.6515 150.31 71 141.989 71 140.25C71 133.2 73.5 126.544 73.5 119.5C73.5 118.932 73.1595 116.459 73.6111 116.111C75.0039 115.04 78.8199 114.639 80.5278 114.278C83.6765 113.612 87.0617 113.223 90.2778 113.028C93.8913 112.809 97.4024 112.974 100.972 112.528C103.886 112.164 106.655 110.822 109.5 110.111C112.512 109.358 112.242 109.869 109.556 108.167C104.896 105.214 101.306 101.306 97.4722 97.4722C93.727 93.727 89.1187 90.8316 85.5 87C84.2622 85.6894 90.6142 78.9938 91.6111 77C93.5171 73.188 95.1849 69.4531 96.7222 65.5C97.334 63.9269 97.9375 62.7124 98.75 61.25C100.151 58.728 99.7747 57.885 103.278 60.5C111.113 66.3488 116.89 74.6476 124 81.25C126.378 83.4579 128.688 85.7434 130.972 88.0278C133.5 90.5552 135.494 93.8844 138.389 96C138.728 96.2481 140.919 99.3759 141 98C141.196 94.6732 143.468 90.9461 144.5 87.7778C146.161 82.6747 147.572 77.5406 149.306 72.4722C150.058 70.272 151.179 65.9527 152.611 64.1111C152.756 63.9243 150.408 62.5413 150 62.2222C147.911 60.5903 146.075 58.6104 144.222 56.7222C141.756 54.2096 139.376 51.3271 136.5 49.25C134.92 48.1089 133.061 45.7298 131.306 45.0278C131.103 44.9468 131.73 44.9286 131.944 44.8889C133.752 44.5541 135.531 44.0713 137.278 43.5C141.074 42.2581 144.767 40.7912 148.389 39.1111C152.965 36.9881 157.276 34.1653 162.111 32.6111C162.45 32.5021 163.777 32.5 163.639 32.5C161.646 32.5 159.705 31.6947 157.778 31.25C150.673 29.6104 144.829 25.6282 138.111 23.3889C133.391 21.8154 127.16 25.342 122.528 26.5C116.459 28.0172 110.355 29.8467 104.611 32.3889C98.4991 35.0942 92.6638 40.2884 86 41.5C81.7971 42.2642 77.215 44.7822 73.6111 47C70.5368 48.8919 67.0596 50.537 64.25 52.7222C61.8014 54.6267 57.633 49.5752 56.3056 48.3333C53.1662 45.3965 49.9406 42.6823 47.3889 39.1667C43.7642 34.1726 40.5829 29.9811 35.75 26.2222C33.6428 24.5833 35.89 24.8885 37.8056 24.25C43.2134 22.4474 47.941 19.6406 53 17.1111C58.9673 14.1275 65.9763 13.1501 72.2778 11.1944C75.3728 10.2339 78.5016 8.88827 81.5 7.72222C84.4333 6.5815 87.6451 5.76884 90.5 4.5C91.17 4.20223 95.6135 2.73312 94.1667 3.94444C89.7144 7.67188 87.4397 13.2493 82.9722 16.9722C80.6487 18.9085 77.6808 20.0959 75.75 22.4722C73.946 24.6926 72.5976 27.2148 71 29.6111C69.4592 31.9223 67.5586 33.9949 66.1111 36.3889C64.373 39.2634 61.9743 41.7238 60.2778 44.5C58.0941 48.0732 57.0362 53.2834 54 56C49.5731 59.9609 43.9276 62.4427 39.2222 66.0278C37.3179 67.4787 35.6277 69.2364 33.7778 70.75C31.846 72.3305 31.1971 72.9906 31.6111 75.8889C32.5996 82.8082 35.4071 89.0078 36.75 95.7222C37.2546 98.2454 37.743 100.79 38.5 103.25C38.9191 104.612 39.9168 106.972 39.5 108.222C37.5254 114.146 33.0471 119.461 30.2778 125C29.4377 126.68 29.1673 128.599 28.25 130.25C26.9473 132.595 26.8609 132.443 24.8889 129.889C19.5886 123.025 15.9867 115.224 12.3889 107.389C10.6464 103.594 8.11736 100.235 6.25 96.5C5.55472 95.1094 2.36205 91.9504 3.80556 92.5278C6.70198 93.6863 9.46365 95.3299 12.3889 96.5C15.0414 97.561 17.4279 99.2487 20 100.5C22.2551 101.597 24.7222 101.793 26.9722 102.778C28.3596 103.385 36.9098 108.868 37.8889 107.889C38.6704 107.107 39.1842 103.838 39.7778 102.722C41.4634 99.5532 42.9303 96.2115 44.8333 93.1667C48 88.1 50.4093 82.7432 53.2778 77.5278C56.5261 71.6218 58.91 65.2305 62 59.2222C63.8056 55.7113 64.3631 56.0166 60.8333 53.2222C57.0203 50.2036 53.22 47.22 49.7778 43.7778C46.4887 40.4887 44.3219 36.3219 41 33C39.835 31.835 38.6978 30.6312 37.5 29.5C35.8863 27.9759 35.7596 27.1207 35.5278 30.25C35.0244 37.0459 33.2627 44.1724 31.8889 50.8889C31.0099 55.186 31.0676 59.654 30.5278 63.9722C30.3155 65.6701 30.2645 67.343 30.0278 69C29.9172 69.7741 29.8255 70.271 29.6111 71C29.409 71.6872 37.0868 71.5 37.8889 71.5C43.045 71.5 47.6952 71.5401 52.7222 70.5C56.8275 69.6506 61.0742 68.7815 65.25 68.4722C71.4361 68.014 78.3205 65.6057 84.1111 63.5C86.2908 62.7074 88.8295 62.0778 91.1111 61.6111C92.8767 61.25 96.0799 61.1723 97.5556 60.25C101.634 57.7012 106.709 55.9897 111.222 54.2778C114.471 53.0455 118.572 50.6804 122 50.5C122.677 50.4644 126.013 50.0293 126.389 49.2778C129.057 43.9406 130.356 37.7289 132.972 32.2778C133.426 31.3322 133.933 28.6532 134.75 28C135.52 27.3839 134.554 26.9624 134.056 26.7778C130.284 25.3809 126.773 23.2059 123.5 20.8889C117.973 16.9765 114.145 10.3504 108 7.27778C105.043 5.79915 102.241 4.32751 99.5 2.5" stroke="black" stroke-width="2" stroke-linecap="round"/>
-      <path class="path" d="M158 186C158 182.637 160.139 179.729 162.25 177.25C164.098 175.08 165.544 172.571 167.5 170.5C169.805 168.059 162.515 168.974 161.556 169.028C158.634 169.19 155.683 170 152.778 170C148.018 170 143.135 170.359 138.5 171.389C137.809 171.542 133.481 172.074 133.917 171.639C138.998 166.558 143.028 160.723 147.722 155.278C154.125 147.851 159.343 139.137 163.889 130.5C164.87 128.635 166.033 128.932 164.944 126.444C162.837 121.628 159.637 117.85 156.944 113.444C153.638 108.034 148.834 104.168 146 98.4999C145.23 96.9604 143.998 95.3688 143.5 93.7499C142.814 91.521 142.342 91.747 144.5 90.9999C148.773 89.5207 152.68 87.0427 156.972 85.5277C159.993 84.4617 162.617 83.1916 165.5 81.7499C167.723 80.6384 170.026 79.3129 172.111 77.9999C174.159 76.7102 175.154 76.7672 174.611 74.111C174.113 71.6754 173.335 69.3367 172.5 66.9999C171.373 63.8449 171.309 60.4262 170.25 57.2499C168.477 51.9298 169.368 46.2054 167.75 41.0277C167.396 39.8956 167 38.1747 167 36.9999C167 35.552 166.214 37.9688 165.5 38.7222C161.765 42.6644 162.002 49.3537 159.222 53.7222C157.425 56.5467 154.584 59.0533 153.111 61.9999C152.711 62.8009 151.708 64.4386 151.528 65.2499C151.154 66.9298 145.234 65.9049 143.611 66.111C138.867 66.7135 133.598 66.8219 129.028 68.2499C122.593 70.2609 114.858 71.4394 108.972 74.7499C103.649 77.744 97.3621 78.2078 92 80.8888C90.1559 81.8109 87.7332 83.4999 85.75 83.4999C84.5911 83.4999 83.1295 84.6007 82.8889 85.611C82.1504 88.7129 80.9529 91.4498 79.1111 93.9999C76.7022 97.3354 75.2216 101.761 73.8889 105.611C73.4261 106.948 73.0078 108.321 72.25 109.5C70.8005 111.755 70.965 111.531 73.1111 112.805C77.1854 115.225 81.4715 117.666 84.6667 121.278C87.3606 124.323 90.7011 125.641 94.1111 127.611C99.3596 130.643 104.527 133.541 109.944 136.25C110.643 136.599 112.372 138.406 113 137.778C116.082 134.696 118.319 129.665 120.889 126.111C125.588 119.612 131.645 114.185 136.222 107.528C137.475 105.705 138.99 104.175 139.611 102C140.216 99.8824 142.105 98.5705 142.889 96.611C143.68 94.6343 141.738 95.6839 140 95.9999C137.519 96.451 134.649 97.1378 132.278 97.9999C128.876 99.2371 125.826 101.429 122.5 102.722C119.272 103.977 114.971 106.807 111.5 107C110.173 107.074 108.825 106.141 107.472 105.972C105.259 105.695 103.013 105.168 100.972 104.25C94.8174 101.48 88.4592 98.5663 81.8889 96.8888C78.7339 96.0833 75.3423 94.2882 72.3056 92.9999C69.7273 91.9061 66.982 89.5522 64.3889 88.8888C62.1294 88.3108 59.7531 87.3991 57.5556 86.6666C52.0754 84.8399 46.7261 82.863 41.5556 80.2777C39.6692 79.3345 34.2221 74.6755 32 75.611C28.1628 77.2267 25.6309 79.2632 22.2778 81.7222C19.0605 84.0815 15.0231 86.2838 11.5278 88.2499C8.19504 90.1246 5.26258 92.6919 2.00001 94.611C1.6587 94.8118 1.26987 95.9423 1.11112 94.9444C0.753596 92.6971 1.65684 90.5534 2.25001 88.4444C3.27761 84.7907 4.97425 81.5378 6.22223 77.9722C7.00781 75.7277 6.97215 73.1766 8.00001 70.9999C9.49724 67.8293 10.7713 64.6653 12 61.3888C14.1534 55.6465 16.9969 49.0043 20.6111 43.9999C23.4293 40.0978 26.768 36.5483 29.7222 32.7499C32.3559 29.3638 32.9321 27.9219 37.5 29.4999C42.2069 31.126 46.685 33.2657 51.25 35.2222C54.5685 36.6444 57.8924 37.5227 61.0833 39.2777C66.6626 42.3463 71.3079 46.9039 77 49.7499C81.0509 51.7754 85.1432 53.4008 89.5 54.611C91.0294 55.0359 92.9173 55.912 94.2778 56.7777C95.0158 57.2474 95.7193 57.7207 96.5 58.111C96.6535 58.1878 97.0003 58.4943 97.1945 58.4166C97.4746 58.3045 97.0782 57.7576 97.0278 57.8333C96.1497 59.1503 96.7039 60.5257 95 61.8888C92.7103 63.7206 90.3954 65.573 87.8889 67.111C83.4222 69.852 80.6009 74.2253 76.5 77.3888C73.2225 79.9172 68.9643 82.9221 66.7778 86.4999C62.8605 92.9101 56.2809 97.6635 51.2222 102.722C50.2303 103.714 41.6566 107.697 42.3889 108.722C42.9977 109.575 46.8293 108.984 47.7778 109.028C50.2393 109.142 52.5356 109.833 54.8889 110.5C57.4242 111.218 59.9745 111.868 62.5 112.611C63.8097 112.996 64.909 114.174 66.25 114.472C67.7413 114.804 67 119.059 67 120.5C67 124.067 67.0081 127.533 67.3889 131.055C67.776 134.636 67.2519 138.259 68.0278 141.75C68.6993 144.772 70.5881 148.132 65.5 146.5C58.2858 144.186 52.1024 139.664 45 137.222C40.1468 135.554 35.3561 133.619 30.5 132" stroke="black" stroke-width="2" stroke-linecap="round"/>
-      <path class="path" d="M178 77C177.616 85.0668 173.719 92.9076 173.5 101C173.327 107.388 171.609 113.526 170.472 119.778C170.29 120.778 168.809 126.361 167.917 126.472C162.803 127.111 157.177 127 152 127C145.428 127 139.258 129.5 132.778 129.5C130.135 129.5 127.61 130.682 125 130.972C122.479 131.252 119.298 131.868 117 132.889C115.117 133.726 114.483 127.988 114.111 126.5C113.207 122.882 112.516 119.544 111.25 116C110.16 112.948 110.5 109.703 110.5 106.5C110.5 105.73 109.341 104.222 110.111 104.222C110.804 104.222 113.145 106.607 113.5 107.111C117.845 113.285 123.598 117.925 128.5 123.528C129.708 124.909 130.9 126.626 132 128.111C133.191 129.719 135.006 130.623 136.25 132.25C137.83 134.316 139.498 136.497 140.75 138.75C141.93 140.875 149.757 133.457 151.722 132.75C155.473 131.4 160.024 129.163 163 126.5C163.961 125.64 165.857 124.905 165.972 126.639C166.219 130.347 166.376 134.18 166.5 137.889C166.58 140.296 167.161 142.865 167.528 145.25C168.375 150.757 171.5 155.946 171.5 161.5C171.5 162.321 171.302 163.433 171.528 164.222C171.712 164.867 169.381 164.5 168.5 164.5C165.63 164.5 162.832 165.5 160.028 165.5C155.643 165.5 151.222 166 146.778 166C143.873 166 140.917 167.354 138 167.5C136.966 167.552 135.7 167.944 134.778 167.944C134.252 167.944 132.8 164.069 132.5 163.5C130.143 159.035 127 154.814 124.25 150.583C121.252 145.971 118.454 140.907 116 136" stroke="black" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-    </div>
-</body>
-
-<style> 
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+	hr
+	{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
 </style>
 
-<script src="./scripts/main.js"></script>
+<html>
+<head>
+	<title>This is my paper title</title>
+	<meta property="og:image" content="Path to my teaser.png"/> <!-- Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. -->
+	<meta property="og:title" content="Creative and Descriptive Paper Title." />
+	<meta property="og:description" content="Paper description." />
 
-</html> 
+	<!-- Get from Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script> 
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-75863369-6');
+	</script>
+</head>
+
+<body>
+	<br>
+	<center>
+		<span style="font-size:36px">Creative and Descriptive Paper Title</span>
+		<table align=center width=600px>
+			<table align=center width=600px>
+				<tr>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>
+						</center>
+					</td>
+					<td align=center width=100px>
+						<center>
+							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<table align=center width=250px>
+				<tr>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href=''>[Paper]</a></span>
+						</center>
+					</td>
+					<td align=center width=120px>
+						<center>
+							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>
+						</center>
+					</td>
+				</tr>
+			</table>
+		</table>
+	</center>
+
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="width:500px" src="./resources/teaser.png"/>
+					</center>
+				</td>
+			</tr>
+		</table>
+		<table align=center width=850px>
+			<tr>
+				<td>
+					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+				</td>
+			</tr>
+		</table>
+	</center>
+
+	<hr>
+
+	<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
+		<tr>
+			<td>
+				This is my abstract.
+			</td>
+		</tr>
+	</table>
+	<br>
+
+	<hr>
+	<center><h1>Talk</h1></center>
+	<p align="center">
+		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
+	</p>
+
+	<table align=center width=800px>
+		<br>
+		<tr>
+			<center>
+				<span style="font-size:28px"><a href=''>[Slides]</a>
+				</span>
+			</center>
+		</tr>
+	</table>
+	<hr>
+
+	<center><h1>Code</h1></center>
+
+	<table align=center width=420px>
+		<center>
+			<tr>
+				<td>
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=400px>
+		<tr>
+			<td align=center width=400px>
+				<center>
+					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+				</center>
+			</td>
+		</tr>
+	</table>
+	<table align=center width=850px>
+		<center>
+			<tr>
+				<td>
+					Short description if wanted
+				</td>
+			</tr>
+		</center>
+	</table>
+	<table align=center width=800px>
+		<br>
+		<tr><center>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			</center>
+		</span>
+	</table>
+	<br>
+	<hr>
+	<table align=center width=450px>
+		<center><h1>Paper and Supplementary Material</h1></center>
+		<tr>
+			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
+			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
+				<b>Creative and Descriptive Paper Title.</b><br>
+				In Conference, 20XX.<br>
+				(hosted on <a href="">ArXiv</a>)<br>
+				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
+				<span style="font-size:4pt"><a href=""><br></a>
+				</span>
+			</td>
+		</tr>
+	</table>
+	<br>
+
+	<table align=center width=600px>
+		<tr>
+			<td><span style="font-size:14pt"><center>
+				<a href="./resources/bibtex.txt">[Bibtex]</a>
+			</center></td>
+		</tr>
+	</table>
+
+	<hr>
+	<br>
+
+	<table align=center width=900px>
+		<tr>
+			<td width=400px>
+				<left>
+					<center><h1>Acknowledgements</h1></center>
+					This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
+				</left>
+			</td>
+		</tr>
+	</table>
+
+<br>
+</body>
+</html>
