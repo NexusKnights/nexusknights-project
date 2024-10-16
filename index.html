@@ -41,11 +41,22 @@
         .pdf-link:hover {
             background-color: #0056b3;
         }
+        /* Responsive iframe container */
+        .iframe-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 ratio (adjust if needed) */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background-color: #f4f4f4;
+        }
         iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
-            height: 800px;
+            height: 100%;
             border: none;
-            display: none;
         }
         /* Spinner Styles */
         .spinner {
@@ -69,21 +80,36 @@
             text-align: center;
             padding: 10px 0;
         }
+
+        /* Mobile styles for better responsiveness */
+        @media (max-width: 768px) {
+            main {
+                padding: 10px;
+            }
+            .pdf-link {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+            iframe {
+                height: 100%;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>HCI NEXUS KNIGHTS</h1>
+        <h1>NexusKnights</h1>
     </header>
 
     <main>
         <p>PDF consegna C1</p>
         
-        <!-- Loading spinner -->
-        <div class="spinner" id="loading-spinner"></div>
-        
-        <!-- Embedded PDF -->
-        <iframe src="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" id="pdf-iframe"></iframe>
+
+
+        <!-- Responsive iframe container for the embedded PDF -->
+        <div class="iframe-container">
+            <iframe src="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" id="pdf-iframe"></iframe>
+        </div>
 
         <br>
 
