@@ -110,6 +110,12 @@
             spinner.style.display = 'none'; // Hide spinner
             iframe.style.display = 'block'; // Show iframe
         };
+
+        // Fallback timeout: hide spinner after 5 seconds in case iframe onload doesn't trigger
+        setTimeout(function() {
+            spinner.style.display = 'none'; // Hide spinner
+            iframe.style.display = 'block'; // Show iframe
+        }, 5000);  // Adjust the timeout duration if necessary
     </script>
 </body>
 </html>
