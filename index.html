@@ -45,6 +45,22 @@
             width: 100%;
             height: 800px;
             border: none;
+            display: none;
+        }
+        /* Spinner Styles */
+        .spinner {
+            border: 8px solid #f4f4f4;
+            border-top: 8px solid #007bff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+            display: none;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         footer {
             margin-top: 20px;
@@ -57,14 +73,20 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My GitHub Page</h1>
+        <h1>HCI NEXUS KNIGHTS</h1>
     </header>
 
     <main>
         <p>PDF consegna C1</p>
+        
+        <!-- Loading spinner -->
+        <div class="spinner" id="loading-spinner"></div>
+        
         <!-- Embedded PDF -->
-        <iframe src="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf"></iframe>
+        <iframe src="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" id="pdf-iframe"></iframe>
+
         <br>
+
         <!-- Download link as backup -->
         <a href="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" class="pdf-link" download="FHCI - C1_compressed.pdf">Download PDF</a>
     </main>
@@ -72,5 +94,22 @@
     <footer>
         <p>&copy; 2024 NexusKnights</p>
     </footer>
+
+    <script>
+        // Get references to the spinner and iframe
+        var spinner = document.getElementById('loading-spinner');
+        var iframe = document.getElementById('pdf-iframe');
+
+        // Show spinner when the page loads
+        window.onload = function() {
+            spinner.style.display = 'block';
+        };
+
+        // Hide spinner and show iframe when PDF is fully loaded
+        iframe.onload = function() {
+            spinner.style.display = 'none'; // Hide spinner
+            iframe.style.display = 'block'; // Show iframe
+        };
+    </script>
 </body>
 </html>
