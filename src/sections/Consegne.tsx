@@ -7,10 +7,10 @@ import F3 from "@/assets/Screenshot 2024-10-28 alle 21.26.40.png";
 import F4 from "@/assets/F3.png";
 
 
-import F11 from "@/assets/c1/Screenshot 2024-10-28 alle 21.30.51.png";
-import F12 from "@/assets/c1/Screenshot 2024-10-28 alle 21.31.07.png";
-import F13 from "@/assets/c1/Screenshot 2024-10-28 alle 21.31.16.png";
-import F14 from "@/assets/c1/Screenshot 2024-10-28 alle 21.31.25.png";
+import F11 from "@/assets/C1/Screenshot 2024-10-28 alle 21.30.51.png";
+import F12 from "@/assets/C1/Screenshot 2024-10-28 alle 21.31.07.png";
+import F13 from "@/assets/C1/Screenshot 2024-10-28 alle 21.31.16.png";
+import F14 from "@/assets/C1/Screenshot 2024-10-28 alle 21.31.25.png";
 import ArrowRight from "@/assets/arrow-right.svg";
 export const Consegne = () => {
   const data = [
