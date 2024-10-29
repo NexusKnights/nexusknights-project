@@ -21,7 +21,7 @@ export const Consegne = () => {
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Individuazione dei bisogni
      
-          <a href="https://nexusknights.github.io/nexusknights-project/C1/FHCI-C1.pdf" download="FHCI-C1.pdf" className="flex items-center gap-1">
+          <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" download="FHCI-C1.pdf" className="flex items-center gap-1">
           vai al file canva
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>     </p>
