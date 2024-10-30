@@ -22,7 +22,7 @@ export const Consegne = () => {
 
             Individuazione dei bisogni
             </h1>
-            <h2><a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" className="flex items-center gap-1">
+            <h2 className="text-neutral-200 text-2xl md:text-4xl font-bold mb-8"><a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" className="flex items-center gap-1">
           vai al file canva
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>  </h2>
@@ -66,7 +66,7 @@ export const Consegne = () => {
          <h1 className="text-neutral-200 text-2xl md:text-4xl font-bold mb-8">
          Raffinamento e Focus</h1>
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C2.pdf" target="_blank" className="flex items-center gap-1">
-            <h2>  vai al file canva </h2>
+            <h2 className="text-neutral-200 text-2xl md:text-4xl font-bold mb-8">  vai al file canva </h2>
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>    
           
