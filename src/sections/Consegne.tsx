@@ -19,13 +19,13 @@ export const Consegne = () => {
       content: (
         <div>
      <h1 className="text-neutral-200 text-2xl md:text-4xl font-bold mb-8">
-ì
+
             Individuazione dei bisogni
-     
-          <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" className="flex items-center gap-1">
+            </h1>
+            <h2><a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" className="flex items-center gap-1">
           vai al file canva
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
-        </a>     </h1>
+        </a>  </h2>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src={F11}
@@ -64,12 +64,12 @@ export const Consegne = () => {
       content: (
         <div>
          <h1 className="text-neutral-200 text-2xl md:text-4xl font-bold mb-8">
-         Raffinamento e Focus
+         Raffinamento e Focus</h1>
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C2.pdf" target="_blank" className="flex items-center gap-1">
-          vai al file canva
+            <h2>  vai al file canva </h2>
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>    
-          </h1>
+          
 
           
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
