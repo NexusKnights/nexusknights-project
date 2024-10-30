@@ -10,7 +10,7 @@ export const Header = () => {
         <p className="text-white/60 hidden md:block"></p>
         
     
-        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" download="FHCI-C1.pdf" className="flex items-center gap-1">
+        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C2.pdf" target="_blank" className="flex items-center gap-1">
           vai all&apos;ultima consegna
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>
