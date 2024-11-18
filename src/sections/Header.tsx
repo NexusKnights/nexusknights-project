@@ -10,7 +10,7 @@ export const Header = () => {
         <p className="text-white/60 hidden md:block"></p>
         
         <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C3.pdf" target="_blank" className="flex items-center gap-1">
-          vai all&apos;ultima consegna
+          Vai all&apos;ultima consegna
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>
       </div>
@@ -23,12 +23,12 @@ export const Header = () => {
 
             <nav className="sm:hidden md:flex gap-6 text.black/60 items-center">
               <a href="#">Il team</a>
-              <a href="#">l&apos;idea</a>
-              <a href="#">canva</a>
+              <a href="#">L&apos;idea</a>
+              <a href="#">Canva</a>
 
               <button className="btn btn-primary">
   <a href="https://www.figma.com/design/nRNjpyoPVGR6mjiIM9asZe/WIREFRAMES?node-id=1-1534&t=GC56unhpwX2TCNU1-1" target="_blank">
-    apri su figma
+    Apri su figma
   </a>
 </button>
 

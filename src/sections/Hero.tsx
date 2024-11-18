@@ -10,7 +10,7 @@ export const Hero = () => {
           <div className="md:w-[478px]">
             <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C3.pdf" target="_blank" className="flex items-center gap-1">
-              ultima consegna C3
+              Consegna C3
               </a>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mt-6">
@@ -18,13 +18,13 @@ export const Hero = () => {
               <span className="block bg-gradient-to-b from-[#2B5DFF] via-[#1A389A] to-[#1A389A] text-transparent bg-clip-text">it up!</span>
             </h1>
             <p className="text-xl text-[#010DE] tracking-tight mt-6">
-              Parcheggiare non è mai stato così semplice
+            You choose it, we find it!
             </p>
 
             <div className="flex gap-1 items-center mt-[30px]">
             <button className="btn btn-primary">
   <a href="https://www.figma.com/design/nRNjpyoPVGR6mjiIM9asZe/WIREFRAMES?node-id=1-1534&t=GC56unhpwX2TCNU1-1" target="_blank">
-    apri su figma
+    Apri su figma
   </a>
 </button>
 

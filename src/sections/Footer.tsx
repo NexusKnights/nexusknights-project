@@ -15,9 +15,9 @@ export const Footer = () => {
 
           {/* Navigation Links */}
           <div className="flex justify-center space-x-4">
-            <span className="text-white">il team</span>
-            <span className="text-white">l&apos;idea</span>
-            <span className="text-white">canva</span>
+            <span className="text-white">Il team</span>
+            <span className="text-white">L&apos;idea</span>
+            <span className="text-white">Canva</span>
           </div>
 
           {/* Figma Logo */}

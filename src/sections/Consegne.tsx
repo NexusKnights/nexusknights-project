@@ -30,7 +30,7 @@ export const Consegne = () => {
           </h1>
           <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C1.pdf" target="_blank" className="flex items-center gap-1">
-              vai al file canva
+              Vai al file canva
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
           </h2>
@@ -75,7 +75,7 @@ export const Consegne = () => {
          Raffinamento e Focus</h1>
          <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C2.pdf" target="_blank" className="flex items-center gap-1">
-              vai al file canva 
+              Vai al file canva 
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>    </h2>
           
@@ -126,15 +126,15 @@ export const Consegne = () => {
           </h1>
           <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C3.pdf" target="_blank" className="flex items-center gap-1">
-              vai al file canva
+              Vai al file canva
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
             <a href="https://www.figma.com/design/g7FIVzmzavZYOragrxXhTQ/WIREFRAME-APP?node-id=28-4886&node-type=frame&t=zA2eWquwWtg2YNKg-0" target="_blank" className="flex items-center gap-1">
-              apri wireframe app
+              Apri wireframe app
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
             <a href="https://www.figma.com/design/NwihD2AoTzZxfqdUj2l7er/WIREFRAME-ASSISTENTE-VOCALE?node-id=0-1&node-type=canvas&t=VbIndEevkI3ZzE1P-0" target="_blank" className="flex items-center gap-1">
-              apri wireframe assistente vocale
+              Apri wireframe assistente vocale
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
           </h2>
