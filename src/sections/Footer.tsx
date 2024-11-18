@@ -16,7 +16,7 @@ export const Footer = () => {
           {/* Navigation Links */}
           <div className="flex justify-center space-x-4">
             <span className="text-white">il team</span>
-            <span className="text-white">l'idea</span>
+            <span className="text-white">l&apos;idea</span>
             <span className="text-white">canva</span>
           </div>
 
