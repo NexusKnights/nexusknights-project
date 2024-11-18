@@ -21,7 +21,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     if (ref.current) {
       const rect = ref.current.getBoundingClientRect();
       const isMobile = window.innerWidth < 768;
-      const calculatedHeight = isMobile ? rect.height * 0.8 : rect.height;
+      const calculatedHeight = isMobile ? rect.height * 0.70 : rect.height;
       setHeight(calculatedHeight);
     }
   }, [ref]);
