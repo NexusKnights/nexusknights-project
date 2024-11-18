@@ -34,38 +34,38 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-neutral-950 font-sans md:px-10 relative z-10"
+      className="w-full bg-white font-sans md:px-10 relative z-10"
       ref={containerRef} // Ensure this ref has a z-index of 10 or lower than the navbar
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
-          CONSEGNE
-        </h2>
-        <p className="text-neutral-300 text-sm md:text-base max-w-sm">
-   
-In seguito alla scelta del tema, abbiamo deciso di focalizzare le nostre ricerche sulla città metropolitana di Milano, essendo essa una delle principipali città italiane in cui questa problematica si presenta in maniera frequente, spesso persino nella quotidianità.
-        </p>
-      </div>
+     <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 text-center">
+  <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 bg-gradient-to-b from-[#2B5DFF] via-[#1A389A] to-[#1A389A] text-transparent bg-clip-text pb-2">
+    Consegne
+  </h2>
+  <p className="text-black text-sm md:text-base mx-auto max-w-sm">
+  Qui trovate la timeline di tutte le consegne del corso
+  </p>
+</div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+
+      <div ref={ref} className="relative max-w-6xl mx-auto pb-20">
         {data.map((item, index) => (
           <div
             key={index}
             className="flex justify-start pt-10 md:pt-40 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-30 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
-              <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-black flex items-center justify-center">
-                <div className="h-4 w-4 rounded-full bg-neutral-800 border border-neutral-700 p-2" />
+              <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white flex items-center justify-center">
+                <div className="h-4 w-4 rounded-full bg-neutral-200 border border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 ">
-                {item.title}
-              </h3>
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold bg-gradient-to-b from-[#1A389A] to-[#2B5DFE] text-transparent bg-clip-text">
+  {item.title}
+</h3>
             </div>
 
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
-              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500">
-                {item.title}
-              </h3>
+            <h3 className="md:hidden block text-2xl mb-4 text-left font-bold bg-gradient-to-b from-[#1A389A] to-[#2B5DFE] text-transparent bg-clip-text">
+  {item.title}
+</h3>
               {item.content}{" "}
             </div>
           </div>
@@ -81,7 +81,7 @@ In seguito alla scelta del tema, abbiamo deciso di focalizzare le nostre ricerch
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-[#48EDFF] via-[#1A389A] to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>

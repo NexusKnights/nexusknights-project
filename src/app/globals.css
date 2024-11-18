@@ -10,9 +10,10 @@
     }
 
     .btn-primary{
-        @apply bg-black text-white 
+        @apply bg-gradient-to-r from-[#2A5DFF] to-[#193899] text-white hover:opacity-90 transition-opacity
     }
      .btn-text{
         @apply text-black bg-transparent 
     }
 }
+
