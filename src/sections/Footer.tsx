@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import Logo from "@/assets/logo.png";
-import FigmaLogo from "@/assets/figma-logo.png";
+import FigmaLogo from "@/assets/Figma-logo.png";
 
 export const Footer = () => {
   return (
