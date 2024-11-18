@@ -5,7 +5,7 @@ import FigmaLogo from "@/assets/Figma-logo.png";
 
 export const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#2B5DFE] to-[#1A389A] py-12">
+    <footer className="bg-gradient-to-r from-[#2B5DFE] to-[#1A389A] py-12  z-50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 gap-8 items-center">
           {/* Logo */}
