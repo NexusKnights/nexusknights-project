@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="pt-8 pb-20 z-1 md:pt-5 md:pb-10 h-[60vh] md:h-auto bg-[radial-gradient(ellipse_130%_60%_at_bottom_left,#183EC2,#EAEEFE_66%)] md:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_66%)] overflow-hidden">
+    <section className="pt-8 pb-0  z-1 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_130%_60%_at_bottom_left,#183EC2,#EAEEFE_66%)] md:bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_66%)] overflow-hidden">
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
