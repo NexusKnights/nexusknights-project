@@ -186,7 +186,7 @@ export const Consegne = () => {
       content: (
         <div>
           <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
-          mid fidelity prototype
+          Mid fidelity prototype
           </h1>
           <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C4.pdf" target="_blank" className="flex items-center gap-1">
