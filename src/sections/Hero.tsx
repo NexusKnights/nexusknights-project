@@ -9,8 +9,8 @@ export const Hero = () => {
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
             <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">
-            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C3.pdf" target="_blank" className="flex items-center gap-1">
-              Consegna C3
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C4.pdf" target="_blank" className="flex items-center gap-1">
+              Consegna C4
               </a>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mt-6">
@@ -23,7 +23,7 @@ export const Hero = () => {
 
             <div className="flex gap-1 items-center mt-[30px]">
             <button className="btn btn-primary">
-  <a href="https://www.figma.com/design/nRNjpyoPVGR6mjiIM9asZe/WIREFRAMES?node-id=1-1534&t=GC56unhpwX2TCNU1-1" target="_blank">
+  <a href="https://www.figma.com/proto/dhm9GhJCKAwxh6EqgyGneg/NEXUSKNIGHTS---PARK-IT-UP!?node-id=810-6042&node-type=frame&t=iT9XVaE6r3P0pFq9-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713" target="_blank">
     Apri su figma
   </a>
 </button>
