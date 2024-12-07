@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="flex justify-center items-center py-3 bg-gradient-to-r from-[#2B5DFF] to-[#1A3899] text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block"></p>
         
-        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C3.pdf" target="_blank" className="flex items-center gap-1">
+        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C4.pdf" target="_blank" className="flex items-center gap-1">
           Vai all&apos;ultima consegna
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>
@@ -27,7 +27,7 @@ export const Header = () => {
               <a href="#">Canva</a>
 
               <button className="btn btn-primary">
-  <a href="https://www.figma.com/design/nRNjpyoPVGR6mjiIM9asZe/WIREFRAMES?node-id=1-1534&t=GC56unhpwX2TCNU1-1" target="_blank">
+  <a href="https://www.figma.com/proto/dhm9GhJCKAwxh6EqgyGneg/NEXUSKNIGHTS---PARK-IT-UP!?node-id=810-6042&node-type=frame&t=iT9XVaE6r3P0pFq9-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713" target="_blank">
     Apri su figma
   </a>
 </button>

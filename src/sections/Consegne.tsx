@@ -7,6 +7,8 @@ import F3 from "@/assets/Screenshot 2024-10-28 alle 21.26.40.png";
 import F4 from "@/assets/F3.png";
 
 
+
+
 import F11 from "@/assets/C1/Screenshot 2024-10-28 alle 21.30.51.png";
 import F12 from "@/assets/C1/Screenshot 2024-10-28 alle 21.31.07.png";
 import F13 from "@/assets/C1/Screenshot 2024-10-28 alle 21.31.16.png";
@@ -17,6 +19,12 @@ import F15 from "@/assets/C3/sc31.png";
 import F16 from "@/assets/C3/sc32.png";
 import F17 from "@/assets/C3/sc33.png";
 import F18 from "@/assets/C3/sc34.png";
+
+import F19 from "@/assets/C4/C41.png";
+import F20 from "@/assets/C4/C42.png";
+import F21 from "@/assets/C4/C43.png";
+import F22 from "@/assets/C4/C44.png";
+
 
 import ArrowRight from "@/assets/arrow-right.svg";
 export const Consegne = () => {
@@ -162,6 +170,62 @@ export const Consegne = () => {
             />
             <Image
               src={F18}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+
+
+    {
+      title: "C 4",
+      content: (
+        <div>
+          <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
+          mid fidelity prototype
+          </h1>
+          <h2 className="text-black text-xs md:text-sm font-normal mb-8">
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C4.pdf" target="_blank" className="flex items-center gap-1">
+              Vai al file canva
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://www.figma.com/proto/dhm9GhJCKAwxh6EqgyGneg/NEXUSKNIGHTS---PARK-IT-UP!?node-id=810-6042&node-type=frame&t=0Ks5UeFEPKapDAeI-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713" target="_blank" className="flex items-center gap-1">
+              Apri prototipo app
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://www.figma.com/proto/dhm9GhJCKAwxh6EqgyGneg/NEXUSKNIGHTS---PARK-IT-UP!?node-id=650-901&node-type=frame&t=ahKUKdyWzBcoKdja-1&scaling=contain&content-scaling=fixed&page-id=108%3A6509&starting-point-node-id=650%3A901">
+              Apri prototipo assistente vocale della macchina
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+          </h2>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={F19}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F20}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F21}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F22}
               alt=""
               width={500}
               height={500}
