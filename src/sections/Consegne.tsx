@@ -309,14 +309,17 @@ export const Consegne = () => {
               Vai al file canva
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=810-6042&p=f&t=Sw1NMV04D5m7iYUb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713">
               Apri prototipo app
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
               Apri prototipo assistente vocale della macchina
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CFR.pdf" target="_blank" className="flex items-center gap-1">
               Vai al file di report
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
@@ -372,14 +375,17 @@ export const Consegne = () => {
               Apri prototipo app
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
               Apri prototipo assistente vocale della macchina
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://drive.google.com/file/d/1ryz6ESZBQulOMAXwYUPRMmByAGF7yfnw/view?usp=share_link">
-              Apri video dell'app
+              Apri video dell&apos;app
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
+            <br></br>
             <a href="https://drive.google.com/file/d/1DMWB7MWUu4jM8OJdMrrmzWKivy8qTJOb/view?usp=share_link">
               Apri video assistente vocale della macchina
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />

@@ -9,7 +9,7 @@ export const Header = () => {
       <div className="flex justify-center items-center py-3 bg-gradient-to-r from-[#2B5DFF] to-[#1A3899] text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block"></p>
         
-        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C4.pdf" target="_blank" className="flex items-center gap-1">
+        <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CF.pdf" target="_blank" className="flex items-center gap-1">
           Vai all&apos;ultima consegna
           <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
         </a>
@@ -22,12 +22,11 @@ export const Header = () => {
             <MenuIcon className="h-5 w-5 md:hidden" />
 
             <nav className="sm:hidden md:flex gap-6 text.black/60 items-center">
-              <a href="#">Il team</a>
-              <a href="#">L&apos;idea</a>
-              <a href="#">Canva</a>
+            
+              <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CF.pdf" target="_blank">Canva</a>
 
               <button className="btn btn-primary">
-  <a href="https://www.figma.com/proto/dhm9GhJCKAwxh6EqgyGneg/NEXUSKNIGHTS---PARK-IT-UP!?node-id=810-6042&node-type=frame&t=iT9XVaE6r3P0pFq9-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713" target="_blank">
+  <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=810-6042&p=f&t=Sw1NMV04D5m7iYUb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713" target="_blank">
     Apri su figma
   </a>
 </button>
