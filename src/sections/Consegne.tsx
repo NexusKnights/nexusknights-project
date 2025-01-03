@@ -302,14 +302,14 @@ export const Consegne = () => {
       content: (
         <div>
           <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
-          high fidelity prototype
+          Usability test
           </h1>
           <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C6.pdf" target="_blank" className="flex items-center gap-1">
               Vai al file canva
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
-            <br></br>
+          
             <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=810-6042&p=f&t=Sw1NMV04D5m7iYUb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713">
               Apri prototipo app
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
@@ -363,7 +363,7 @@ export const Consegne = () => {
       content: (
         <div>
           <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
-          CONSEGNA FINALE
+          Consegna finale
           </h1>
           <h2 className="text-black text-xs md:text-sm font-normal mb-8">
             <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CF.pdf" target="_blank" className="flex items-center gap-1">
