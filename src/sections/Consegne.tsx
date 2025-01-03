@@ -315,7 +315,7 @@ export const Consegne = () => {
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
             <br></br>
-            <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
+            <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=650-901&p=f&t=HM8yNYO8wHELin1T-1&scaling=contain&content-scaling=fixed&page-id=108%3A6509&starting-point-node-id=650%3A901">
               Apri prototipo assistente vocale della macchina
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
@@ -376,7 +376,7 @@ export const Consegne = () => {
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
             <br></br>
-            <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
+            <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=650-901&p=f&t=HM8yNYO8wHELin1T-1&scaling=contain&content-scaling=fixed&page-id=108%3A6509&starting-point-node-id=650%3A901">
               Apri prototipo assistente vocale della macchina
               <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
             </a>
