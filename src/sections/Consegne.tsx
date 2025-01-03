@@ -25,6 +25,21 @@ import F20 from "@/assets/C4/C42.png";
 import F21 from "@/assets/C4/C43.png";
 import F22 from "@/assets/C4/C44.png";
 
+import F23 from "@/assets/C5/C51.png";
+import F24 from "@/assets/C5/C52.png";
+import F25 from "@/assets/C5/C53.png";
+import F26 from "@/assets/C5/C54.png";
+
+
+import F27 from "@/assets/C6/C61.png";
+import F28 from "@/assets/C6/C62.png";
+import F29 from "@/assets/C6/C63.png";
+import F30 from "@/assets/C6/C64.png";
+
+import F31 from "@/assets/CF/CF1.png";
+import F32 from "@/assets/CF/CF2.png";
+import F33 from "@/assets/CF/CF3.png";
+import F34 from "@/assets/CF/CF4.png";
 
 import ArrowRight from "@/assets/arrow-right.svg";
 export const Consegne = () => {
@@ -226,6 +241,175 @@ export const Consegne = () => {
             />
             <Image
               src={F22}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+
+    {
+      title: "C 5",
+      content: (
+        <div>
+          <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
+         Revisione
+          </h1>
+          <h2 className="text-black text-xs md:text-sm font-normal mb-8">
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C5.pdf" target="_blank" className="flex items-center gap-1">
+              Vai al file di revisione
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+          </h2>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={F23}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F24}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F25}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F26}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "C 6",
+      content: (
+        <div>
+          <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
+          high fidelity prototype
+          </h1>
+          <h2 className="text-black text-xs md:text-sm font-normal mb-8">
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-C6.pdf" target="_blank" className="flex items-center gap-1">
+              Vai al file canva
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=810-6042&p=f&t=Sw1NMV04D5m7iYUb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713">
+              Apri prototipo app
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
+              Apri prototipo assistente vocale della macchina
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CFR.pdf" target="_blank" className="flex items-center gap-1">
+              Vai al file di report
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+          </h2>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={F27}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F28}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F29}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F30}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "C F",
+      content: (
+        <div>
+          <h1 className="text-black text-2xl md:text-4xl font-bold mb-8">
+          CONSEGNA FINALE
+          </h1>
+          <h2 className="text-black text-xs md:text-sm font-normal mb-8">
+            <a href="https://nexusknights.github.io/nexusknights-project/FHCI-CF.pdf" target="_blank" className="flex items-center gap-1">
+              Vai al file canva
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+          
+            <a href="https://www.figma.com/proto/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=810-6042&p=f&t=Sw1NMV04D5m7iYUb-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=701%3A8713">
+              Apri prototipo app
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://www.figma.com/design/OoOH6RZ5Q4X0sctE7Jtvhk/NEXUSKNIGHTS---PARK-IT-UP!--ORIGINAL?node-id=108-6509&t=Gb7pyHF3Ck86VLea-1">
+              Apri prototipo assistente vocale della macchina
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://drive.google.com/file/d/1ryz6ESZBQulOMAXwYUPRMmByAGF7yfnw/view?usp=share_link">
+              Apri video dell'app
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+            <a href="https://drive.google.com/file/d/1DMWB7MWUu4jM8OJdMrrmzWKivy8qTJOb/view?usp=share_link">
+              Apri video assistente vocale della macchina
+              <ArrowRight className="w-4 h-4 inline-flex justify-center items-center" />
+            </a>
+           
+          </h2>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src={F31}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F32}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F33}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-25 md:h-44 lg:h-48 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src={F34}
               alt=""
               width={500}
               height={500}
